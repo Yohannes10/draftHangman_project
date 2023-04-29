@@ -1,0 +1,37 @@
+.helo-btn {
+  color: blanchedalmond;
+  background-color: rgb(255, 111, 0);
+
+  border: solid;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 50px;
+  margin: 10px 10px 10px 10px;
+  letter-spacing: 1px;
+  outline: none;
+  background: rgb(255, 0, 0);
+  color: #080808;
+  box-shadow: 0 6px rosybrown;
+  padding-top: 4px;
+}
+.HelpSection button {
+  color: blanchedalmond;
+  background-color: rgb(255, 111, 0);
+
+  border: solid;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 50px;
+  margin: 10px 10px 10px 10px;
+  letter-spacing: 1px;
+  outline: none;
+  background: rgb(205, 255, 214);
+  color: #181616;
+  box-shadow: 0 6px rosybrown;
+  padding-top: 4px;
+}
+.popup {
+  font-family: "Times New Roman", Times, serif;
+}
