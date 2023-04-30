@@ -89,7 +89,7 @@ class Hangman extends Component {
       <div className="Hangman">
         <h1>Hangman</h1>
         <Help />
-        <HangmanImage images={this.images} noOFWrong={this.state.noOFWrong} />
+        <HangmanImage images={this.props.images} noOFWrong={this.state.noOFWrong} />
 
         <p className="Hangman-word">
           {!gameOver ? answerArray : this.state.answer}

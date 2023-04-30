@@ -3,9 +3,8 @@
 
 import React from "react";
 
-const HangmanImage = ({ noOfWrong, images }) => {
-    console.log(images,noOfWrong)
-  return <img src={images[noOfWrong]} alt="Hangman" />;
+const HangmanImage = ({ noOFWrong, images }) => {
+  return <img src={images[noOFWrong]} alt="Hangman" />;
 };
 
 export default HangmanImage;
